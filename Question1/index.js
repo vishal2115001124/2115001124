@@ -20,7 +20,7 @@ const getTopProducts = async (company, category, top, minPrice, maxPrice) => {
 
         // Example: Add headers for authentication
         const headers = {
-            Authorization: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJNYXBDbGFpbXMiOnsiZXhwIjoxNzIwNzgzMjk4LCJpYXQiOjE3MjA3ODI5OTgsImlzcyI6IkFmZm9yZG1lZCIsImp0aSI6ImE1YjljMDBkLTUxMTgtNGIzMC1hNDhmLWNlZWM1NWMxNjAyOSIsInN1YiI6InZpc2hhbC5nbGFfY3MyMUBnbGEuYWMuaW4ifSwiY29tcGFueU5hbWUiOiJHTEEgVW5pdmVyc2l0eSIsImNsaWVudElEIjoiYTViOWMwMGQtNTExOC00YjMwLWE0OGYtY2VlYzU1YzE2MDI5IiwiY2xpZW50U2VjcmV0IjoialFidmNIUEdBbGJJaHZ1TCIsIm93bmVyTmFtZSI6IlZpc2hhbCIsIm93bmVyRW1haWwiOiJ2aXNoYWwuZ2xhX2NzMjFAZ2xhLmFjLmluIiwicm9sbE5vIjoiMjExNTAwMTEyNCJ9.7sl9j6_xOzJHfWyUN6PyD55ws-Mb1h1DLjPuPSrhZhU', // Replace with actual token
+            Authorization: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJNYXBDbGFpbXMiOnsiZXhwIjoxNzIwNzg0MTIzLCJpYXQiOjE3MjA3ODM4MjMsImlzcyI6IkFmZm9yZG1lZCIsImp0aSI6ImE1YjljMDBkLTUxMTgtNGIzMC1hNDhmLWNlZWM1NWMxNjAyOSIsInN1YiI6InZpc2hhbC5nbGFfY3MyMUBnbGEuYWMuaW4ifSwiY29tcGFueU5hbWUiOiJHTEEgVW5pdmVyc2l0eSIsImNsaWVudElEIjoiYTViOWMwMGQtNTExOC00YjMwLWE0OGYtY2VlYzU1YzE2MDI5IiwiY2xpZW50U2VjcmV0IjoialFidmNIUEdBbGJJaHZ1TCIsIm93bmVyTmFtZSI6IlZpc2hhbCIsIm93bmVyRW1haWwiOiJ2aXNoYWwuZ2xhX2NzMjFAZ2xhLmFjLmluIiwicm9sbE5vIjoiMjExNTAwMTEyNCJ9.41wDCYarUsMoKXKY3GU3gRM8IrnNHaWLNeq0tQ3vP7w', // Replace with actual token
         };
 
         const response = await axios.get(url, { headers });

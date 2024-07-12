@@ -34,7 +34,9 @@ function Hero() {
         const apiUrl = `http://localhost:3000/categories/Laptop/products?top=n&minPrice=p&maxPrice=q`;
         console.log(apiUrl); 
         axios.get(apiUrl)
-        .then((res)=> setProducts(res.data));
+    .then((res) => setProducts(res.data))
+    .catch((error) => console.error('Error fetching data:', error));
+
 
 
     };
